@@ -1,0 +1,177 @@
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  background: #f9f5ef;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container {
+  max-width: 700px;
+  background: #fff;
+  padding: 30px 20px;
+  border-radius: 10px;
+  box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Title */
+.title {
+  text-align: center;
+
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+/* RSVP Buttons */
+.button-row {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 12px 25px;
+  border: none;
+  background: #222;
+  color: #fff;
+  border-radius: 6px;
+
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.btn.outline {
+  background: transparent;
+  border: 1px solid #333;
+  color: #333;
+}
+
+/* Section headers */
+.label {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  color: #999;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+
+.value {
+  font-size: 1rem;
+
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+/* Description block */
+.description {
+  margin: 25px 0;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Video Section */
+.video-label {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  color: #999;
+  margin: 20px 0 10px;
+}
+
+.video-wrapper {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.video-wrapper video {
+  width: 100%;
+  height: 300px;
+  display: block;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+    max-width: 500px;
+    padding: 20px;
+  }
+
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .button-row {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .label {
+    font-size: 14px;
+  }
+
+  .value {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 95%;
+    padding: 15px;
+  }
+
+  .title {
+    font-size: 1.4rem;
+  }
+
+  .button-row {
+    gap: 8px;
+  }
+
+  .btn {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .label {
+    font-size: 12px;
+  }
+
+  .value {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .video-label {
+    font-size: 16px;
+  }
+}
