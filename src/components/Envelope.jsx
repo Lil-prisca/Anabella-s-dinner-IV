@@ -6,21 +6,23 @@ const Envelope = () => {
   return (
     <>
       <div className="container">
-        <h1 className="title">Annabella's Graduation Dinner</h1>
+        <h1 className="title">Annabelle's Graduation Dinner</h1>
         <div className="button-row">
           <button className="btn">Will Attend</button>
           <button className="btn outline">Will Not Attend</button>
         </div>
         <div className="section">
           <p className="label">Hosted By</p>
-          <p className="value">Annabella</p>
+          <p className="value">Annabelle</p>
         </div>
         <div className="section description">
           <p>
             <strong>GRADUATION DINNER 🎉💐</strong>
             <br></br>
-            Get ready for a fun evening with friends and family. Join us on{" "}
-            <strong>Wednesday, 28 January 2026 at 16:00</strong>. <br />
+            Get ready for a fun evening with friends and family. <br></br>
+            Join us on <strong>
+              Wednesday, 28 January 2026 at 16:00
+            </strong>. <br />
             Location to be confirmed by the host.
             <br></br>
             Please RSVP by <strong>Wednesday 14 January 2026</strong> so we can
@@ -28,9 +30,12 @@ const Envelope = () => {
           </p>
         </div>
         <div className="section">
-          <p className="label">Date</p>
-          <p className="value">Monday, December 1</p>
-          <p className="value underline">7:00AM WAT</p>
+          <p className="label">
+            {" "}
+            <strong>Date</strong>
+          </p>
+          <p className="value">Wednesday, 28 January 2026</p>
+          <p className="value underline">16:00PM WAT</p>
         </div>
         <h3 className="video-label">Video</h3>
         <div className="video-wrapper">
