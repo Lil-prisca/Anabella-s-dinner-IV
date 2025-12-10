@@ -51,7 +51,7 @@
 
 .envelope {
   width: 650px; /* increased from 200px */
-  height: 400px; /* increased from 140px */
+  height: 450px; /* increased from 140px */
   position: relative;
   background: #e0d3b8;
   border-radius: 8px;
@@ -82,7 +82,7 @@
   left: 5%;
   /* top: 5%; */
   bottom: -100%; /* adjusted to slide fully out */
-  background: white;
+  /* background: white; */
   border-radius: 8px;
   padding: 18px;
   box-sizing: border-box;
@@ -124,12 +124,35 @@ img {
   font-style: italic;
 }
 
+/* New Styles */
+.invite-card {
+  background: linear-gradient(to bottom, #fff 0%, #faf8f3 100%);
+  border: 2px solid rgb(230, 169, 89);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 5px 20px rgba(104, 77, 42, 0.15);
+}
+
+.main-title {
+  color: rgb(104, 77, 42);
+  text-shadow: 1px 1px 2px rgba(230, 169, 89, 0.3);
+}
+
+.gold {
+  color: #d4af37;
+  text-shadow: 1px 1px 3px rgba(212, 175, 55, 0.4);
+}
+
+.envelope {
+  box-shadow: 0 10px 30px rgba(104, 77, 42, 0.25);
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .envelope {
     width: 90%;
     max-width: 500px;
-    height: 300px;
+    height: 350px;
   }
 
   .letter {
@@ -156,7 +179,7 @@ img {
   .envelope {
     width: 95%;
     max-width: 350px;
-    height: 250px;
+    height: 350px;
   }
 
   .letter {

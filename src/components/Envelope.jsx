@@ -37,7 +37,8 @@ const Envelope = () => {
           <p className="value">Wednesday, 28 January 2026</p>
           <p className="value underline">16:00PM WAT</p>
         </div>
-        <h3 className="video-label">Video</h3>
+        <h3 className="video-label"> Video </h3>
+        <h3 className="video-label"> GREATFUL TO GOD </h3>
         <div className="video-wrapper">
           <video controls crossOrigin="anonymous">
             <source src={vid} type="video/mp4" />
