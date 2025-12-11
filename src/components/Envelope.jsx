@@ -8,7 +8,15 @@ const Envelope = () => {
       <div className="container">
         <h1 className="title">Annabelle's Graduation Dinner</h1>
         <div className="button-row">
-          <button className="btn">Will Attend</button>
+          <button
+            className="btn"
+            onClick={() =>
+              (window.location.href =
+                "https://docs.google.com/forms/d/e/1FAIpQLSeADvaJ_Q-H2O8BAoBp773IjyRnBVSgzGLn5Xr9beGLRyTqVQ/viewform?usp=publish-editor")
+            }
+          >
+            Will Attend
+          </button>
           <button className="btn outline">Will Not Attend</button>
         </div>
         <div className="section">
